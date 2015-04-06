@@ -29,6 +29,6 @@ drop.on("drop", function(data) {
 });
 
 
-// When drag for a view for "type"
+// Enable drag for a view for "type"
 type.enableDrag({ view: elementToDragView });
 ```
