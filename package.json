@@ -1,15 +1,10 @@
 {
     "name": "hr.dnd",
     "description": "Drag and drop utility for HappyRhino",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "main": "./lib/index.js",
-    "peerDependencies": {
-        "jquery": "*",
-        "hr.utils": "*",
-        "hr.class": "*"
-    },
     "devDependencies": {
-        "hr.mocha": "0.2.0"
+        "hr.mocha": "^0.2.0"
     },
     "repository": {
         "type": "git",
@@ -17,5 +12,10 @@
     },
     "scripts": {
         "test": "./node_modules/.bin/hr-mocha ./tests/index.js"
+    },
+    "dependencies": {
+        "jquery": "*",
+        "hr.utils": "*",
+        "hr.class": "*"
     }
 }
